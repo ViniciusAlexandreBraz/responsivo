@@ -1,0 +1,351 @@
+* {
+    padding: 0,5;
+    margin: 0;
+}
+
+.cabecalho{
+
+    width: 100vw;
+    height: 100vh; 
+    background: no-repeat url(fundo_cabecalho.png); 
+    background-size: 100%;
+}
+
+.titulo{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 18vh;
+    text-align: right;
+  
+
+    color: #000000;
+    position: relative;
+    width: 1830px;
+    left: 1px;
+    top: 183px;
+
+background: rgba(255, 210, 0, 0.7);
+
+
+
+}
+.data{
+    position: absolute;
+    width: 367px;
+    height: 138px;
+    left: 1300px;
+    top: 457px;
+
+background: rgba(255, 210, 0, 0.7);
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135px;
+    text-align: right;
+
+color: #000000;
+}
+
+ul {
+  height: 38px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color:rgba(229, 229, 229, 0.05);
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 36px;
+}
+li:last-child a{
+  background-color: #ef0000;
+  border-radius: 5px;
+  color: #ffffff;
+}
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:#000000;  
+}
+a:hover {
+  background-color: #606060;
+  color: #ffffff;
+}
+  
+ 
+ .texto1{
+    margin-top:2%;
+    position: absolute;
+    left: 125px;
+    top: 750px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+ }
+
+ .programa{
+    position: absolute;
+
+    left: 125px;
+    top: 850px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120px;
+ }
+ 
+ .data1{
+    position: absolute;
+    width: 86px;
+    height: 30px;
+    left: 125px;
+    top: 954px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+
+    color: #000000;
+
+ }
+ .palestrante1{
+
+   position: absolute;
+   width: 74px;
+   height: 74px;
+   left: 125px;
+   top: 1014px;
+
+ }
+
+ .palestrante2{
+   position: absolute;
+   width: 74px;
+   height: 74px;
+   left: 125px;
+   top: 1114px;
+
+
+ }
+
+ .palestrante3{
+   position: absolute;
+   width: 74px;
+   height: 74px;
+   left: 125px;
+   top: 1290px;
+
+   
+ }
+ .tituloPales1{
+
+   position: absolute;
+   width: 500px;
+   height: 30px;
+   left: 227px;
+   top: 1024px;
+
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 30px;
+
+   color: #000000;
+
+ }
+
+ .nomePales1{
+
+   position: absolute;
+   width: 145px;
+   height: 30px;
+   left: 227px;
+   top: 1054px;
+
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-size: 17px;
+   line-height: 30px;
+
+   color: #000000;
+
+ }
+
+ .tituloPales2{
+   
+   position: absolute;
+   width: 241px;
+   height: 30px;
+   left: 227px;
+   top: 1124px;
+
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 30px;
+
+   color: #000000;
+
+
+ }
+ .nomePales2{
+
+   position: absolute;
+   width: 145px;
+   height: 30px;
+   left: 227px;
+   top: 1154px;
+
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 30px;
+
+   color: #000000;
+
+
+ }
+ .data2{
+   position: absolute;
+    width: 86px;
+    height: 30px;
+    left: 125px;
+    top: 1230px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+
+    color: #000000;
+ }
+
+ .tituloPales3{
+   
+   position: absolute;
+   width: 500px;
+   height: 30px;
+   left: 227px;
+   top: 1290px;
+   
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 30px;
+   
+   
+   
+   color: #000000;
+   
+
+
+ }
+ .nomePales3{
+
+   position: absolute;
+   width: 145px;
+   height: 30px;
+   left: 227px;
+   top: 1320px;
+
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 30px;
+
+   color: #000000;
+
+ }
+ .localiza{
+
+   position: absolute;
+   width: 118px;
+   height: 30px;
+   left: 125px;
+   top: 1450px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 30px;
+
+   color: #000000;
+ }
+ .mapa{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 1562px;
+   background:no-repeat url(mapa.png);
+   background-size: 100%;
+   
+ }
+
+ .rodape{
+  position: absolute;
+  width: 100%;
+  height: 260px;
+  left: 0px;
+  top: 710px;
+
+background: rgba(45, 55, 72, 0.8);
+ }
+
+ .rodapeH1{
+  position: absolute;
+  width: 107px;
+  height: 30px;
+  left: 125px;
+  top: 40px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+
+  color: #ffffff;
+
+ }
+
+ .ifro{
+  position: absolute;
+width: 73px;
+height: 97px;
+left: 125px;
+top: 130px;
+
+ }
+
+ .fslab{
+  position: absolute;
+  width: 101px;
+  height: 69px;
+  left: 247px;
+  top: 130px;
+
+ }
+ 
